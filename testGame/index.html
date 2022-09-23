@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        #gameArea {
+            border: 1px solid black;
+        }
+        body {
+            text-align: center;
+            height: 100vh;
+            background-color: gray;
+            text-align: center;
+            overflow:hidden;
+        }
+        h1 {
+            font-family:'Times New Roman', Times, serif;
+        }
+        h2 {
+            font-family:'Times New Roman', Times, serif;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color:black;">Game</h1>
+    <div id = "score_board">
+        <div class="scoreboard">Score Board:</div>
+            <div class="player_board">0</div>
+    </div>
+        <canvas id="gameArea" width=1280 height=720></canvas>
+        <script src="js/index.js"></script>
+        <script src="js/player.js"></script>
+        <script src="js/structures.js"></script>
+        <script src="js/collectible.js"></script>   
+        <script src="js/enemy.js"></script> 
+</body>
+</html>

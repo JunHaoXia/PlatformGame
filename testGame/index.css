@@ -1,0 +1,9 @@
+.scoreboard{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color :gold;
+}
+.player_board{
+    font-family: Arial, Helvetica, sans-serif;
+    color :black;
+    font-size: xx-large;
+}
